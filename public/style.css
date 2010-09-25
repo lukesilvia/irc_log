@@ -1,0 +1,42 @@
+body {
+    font-size: 150%;
+    font-family: serif;
+    color: #0099b9;
+}
+
+#logo {
+    padding: 0 10px 0 10px;
+    font-size: 300%;
+    font-weight: bolder;
+    letter-spacing: -7px;
+}
+
+#content {
+    padding: 0 15px;
+}
+
+#date_navi {
+    text-align: center;
+}
+
+.date_link_off {
+    color: #cccccc 
+}
+
+form#search {
+    padding: 0 20px 0 0;
+    text-align: right;
+}
+
+ul#statuses {
+    padding: 20px;
+    font-size: 75%;
+}
+
+li.status {
+    padding: 1px 0;
+}
+
+strong.highlight {
+    color: #ff0000;
+}

@@ -1,0 +1,14 @@
+<% if @date %>
+  <div id="date_navi"><h2><%= date_link(@date) %></h2></div>
+<% end %>
+
+<form id="search" method="get" action="/search">
+  <input type="text" name="q" value="<%=h params[:q] %>"/>
+  <input type="submit" value="search" />
+</form>
+
+<ul id="statuses">
+<% @statuses.each do |s| %>
+  <li class="status"><%= status_line(s, @date.nil?) %></li>
+<% end %>  
+</ul>
